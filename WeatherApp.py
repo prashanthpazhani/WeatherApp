@@ -70,18 +70,11 @@ def load_city():
 search_bar = Button(root, text= "Search", command=load_city, bg='white', font=("bold", 15))
 search_bar.grid(row=0,column=1)
 
-    # Country  Names and Coordinates
+# Country  Names and Coordinates
 label_city = Label(root, text = "...", bg='white', font=("bold", 15))
 label_city.place(x=10, y=63)
-
 label_country = Label(root, text = "...", bg='white', font=("bold", 15))
 label_country.place(x=10, y=100)
-
-#label_lon = Label(root, text = "...", bg='white', font=("bold", 15))
-#label_lon.place(x=10, y=63)
-
-#abel_lat = Label(root, text = "...", bg='white', font=("bold", 15))
-#label_lat.place(x=10, y=63)
 
 # Current Temperature
 label_temp = Label(root, text = "...", bg='white', font=("bold", 50))
@@ -96,16 +89,13 @@ label_humidity.place(x=0, y=500)
 humidity_data = Label(root, text = "...", bg='white', font=("bold", 15))
 humidity_data.place(x=100, y=500)
 
-
+ # Min and Max temperatures
 label_min = Label(root, text = "Min. Temp: ", bg='white', font=("bold", 15))
 label_min.place(x=0, y=525)
-
 min = Label(root, text = "...", bg='white', font=("bold", 15))
 min.place(x=105, y=525)
-
 label_max = Label(root, text = "Max. Temp: ", bg='white', font=("bold", 15))
 label_max.place(x=0, y=550)
-
 max = Label(root, text = "...", bg='white', font=("bold", 15))
 max.place(x=105, y=550)
 
